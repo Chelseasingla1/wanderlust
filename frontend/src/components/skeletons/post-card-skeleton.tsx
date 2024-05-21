@@ -7,9 +7,9 @@ export const PostCardSkeleton = () => {
         <Skeleton className="h-48 w-full rounded-lg bg-slate-200 dark:bg-slate-700" />
         <div className="p-4">
           <Skeleton className="mb-2 h-3 w-11/12 bg-slate-200 dark:bg-slate-700" />
-          <Skeleton className="mb-2 h-6 w-11/12 bg-slate-200 dark:bg-slate-700" />
-          <Skeleton className="mb-2 sm:mb-4 h-6 w-11/12 bg-slate-200 dark:bg-slate-700" />
-          <div className="mt-1 sm:mt-2 flex flex-wrap gap-1 sm:gap-2">
+          <Skeleton className="mb-2 h-6 w-full bg-slate-200 dark:bg-slate-700" />
+          <Skeleton className="mb-2 sm:mb-4 h-6 w-full bg-slate-200 dark:bg-slate-700" />
+          <div className="mt-1 sm:mt-2 flex flex-wrap gap-1 sm:gap-1.5">
             <Skeleton
               className={`h-6 w-full rounded-full sm:w-16 ${'sm:mt-2'} bg-slate-200 dark:bg-slate-700 sm:mb-2`}
             />
